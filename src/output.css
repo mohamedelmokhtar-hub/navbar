@@ -219,6 +219,9 @@
   .left-\[0\] {
     left: 0;
   }
+  .-z-10 {
+    z-index: calc(10 * -1);
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -373,6 +376,10 @@
   .duration-200 {
     --tw-duration: 200ms;
     transition-duration: 200ms;
+  }
+  .duration-400 {
+    --tw-duration: 400ms;
+    transition-duration: 400ms;
   }
   .hover\:bg-\[\#87acec\] {
     &:hover {
